@@ -22,7 +22,40 @@
 * Посмотреть MAC-адреса соседей
 * Обнаружить конфликты адресов
 
-route, netstat и команды iproute2: link, addr, route, neigh, ss
+## `route`  
+![route](route.png)  
+`route` — показывает таблицу маршрутизации.
+
+Что показывает:
+* Сеть назначения (Destination)
+* Шлюз (Gateway)
+* Маску (Genmask)
+* Метрики (Metric)
+* Интерфейс (Iface)
+
+## `netstat`  
+![netstat](netstat.png)  
+`netstat` (network statistics) — статистика сети, открытые порты, соединения.
+
+Режимы:
+* -t — TCP-соединения
+* -u — UDP-соединения
+* -l — слушающие порты
+* -n — числовой вывод
+* -p — программа, использующая порт
+
+## `iproute2`
+`iproute2` — современная замена ifconfig, route, arp.
+
+## `ip link`
+![ip link](ip_link.png)  
+
+Расшифровка:
+* UP — интерфейс активен
+* link/ether — MAC-адрес
+* mtu 1500 — максимальный размер пакета
+
+link, addr, route, neigh, ss
 iputil: ping, traceroute/tracert и tracepath, iftop, iperf
 nslookup или drill или dig, 
 wireshark или tcpdump, nmap, whois.
