@@ -55,7 +55,18 @@
 * link/ether — MAC-адрес
 * mtu 1500 — максимальный размер пакета
 
-link, addr, route, neigh, ss
+## `ip addr`
+![ip addr](ip_addr.png)  
+
+## `ip route`
+![ip route](ip_route.png) 
+
+## `ip neigh`
+![ip neigh](ip_neigh.png)  
+
+## `ss`
+![ss](ss.png) 
+
 iputil: ping, traceroute/tracert и tracepath, iftop, iperf
 nslookup или drill или dig, 
 wireshark или tcpdump, nmap, whois.
